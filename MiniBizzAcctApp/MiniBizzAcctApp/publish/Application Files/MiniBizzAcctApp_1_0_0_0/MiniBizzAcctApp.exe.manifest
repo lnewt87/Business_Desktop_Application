@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MiniBizzAcctApp.exe" version="1.0.0.0" publicKeyToken="fca821829c54e834" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MiniBizzAcctApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MiniBizzAcctApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MiniBizzAcctApp.exe" size="134112">
+      <assemblyIdentity name="MiniBizzAcctApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KqIdsMJG5ilHCV1A2Jvb6gUV7tu8KCEaxEplQJWmL2o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MiniBizzAcctApp.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-8CB24A9F\Linda" issuerKeyHash="88d583d0051b3b1fbaf9739cf504c0e43a1e25ef" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>AZxPJZnOHhMAEjlxo1ltW+fARxlykQdoZzQqUdNlisY=</DigestValue></Reference></SignedInfo><SignatureValue>HOFNfoUO6OfoeJCtsFYoBaBB8SlcnUQyzZQ69jGSdVhMd1NemFhVOL47T/adpmD9LtMNGVShFX9Z4z2D69uzBwYPhWktcQNGzHFBO7hlnBGiO5lVhgk0Cusxa1LLl+ckCUF1Cpw33J0nZ7WrT1wrLICWPAqJ2JqMcc31WmCzlvY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2CKf1dOFoS5FvTJb/BcrtVCfKqdUfe3uJJWtgtmfqOZ0ct9ZKJSSBse0RSV1l8INSIqjY+vVhqGfSOVlJVmGPxqD5oR10sEKV7Pitn9IZFcsbCXvX6z0tUaRdPfGKYjW5o48uzXhGffBAQpONtP1G2xfIDzO5j7HFIb9d6WYdME=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c68a65d3512a3467680791721947c0e75b6d59a371391200131ece99254f9c01" Description="" Url=""><as:assemblyIdentity name="MiniBizzAcctApp.exe" version="1.0.0.0" publicKeyToken="fca821829c54e834" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-8CB24A9F\Linda</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>I6xQaFnY5P6/mKFiVIFgPmy0PjOLQQ717WvBKoMaLfU=</DigestValue></Reference></SignedInfo><SignatureValue>LLKceb+3oSq8PPRg1INwb3Otd6uNuAQTLrRRgnoTr9bce9s+o7EDIk9k1t9GhzJrQJnX3/LiuNG3h8/0gAGOBF5lPnv0RVw7T1eiWEpT6n0Jl/zKwn+Z+qDWtVK9C32C7hB6x2wzUsuBkSeI0JLEhQHcag/Qo2CJd7zoZzVEEm8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2CKf1dOFoS5FvTJb/BcrtVCfKqdUfe3uJJWtgtmfqOZ0ct9ZKJSSBse0RSV1l8INSIqjY+vVhqGfSOVlJVmGPxqD5oR10sEKV7Pitn9IZFcsbCXvX6z0tUaRdPfGKYjW5o48uzXhGffBAQpONtP1G2xfIDzO5j7HFIb9d6WYdME=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQYsuroJM8cZhDYiM/kNEH5zANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQA4AEMAQgAyADQAQQA5AEYAXABMAGkAbgBkAGEwHhcNMTcwNDE0MDEzMjUzWhcNMTgwNDE0MDczMjUzWjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQA4AEMAQgAyADQAQQA5AEYAXABMAGkAbgBkAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANgin9XThaEuRb0yW/wXK7VQnyqnVH3t7iSVrYLZn6jmdHLfWSiUkgbHtEUldZfCDUiKo2Pr1Yahn0jlZSVZhj8ag+aEddLBClez4rZ/SGRXLGwl71+s9LVGkXT3ximI1uaOPLs14Rn3wQEKTjbT9RtsXyA8zuY+xxSG/XelmHTBAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAxvRiPMXDpix4wy4z3nUVAD8sIlm18HXYDXCXlc9X92AZxrNxT2MsH7I2O6Fgy6uDgCgqZS5+lXhozODtC1xur2xG/ZJxCZKYTYGocxIHM7xotiqTDQE6NLxKggSvkQSYBpxbpKETZk1JkGGNMIWKA1XyctsocVFPlsb3AhP3YQ8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
